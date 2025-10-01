@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width: 800px;
+    height: 200px;
+}
+#box1{
+    background-color: lightcoral;
+    }
+#box2{
+    background-color: rebeccapurple;
+}
+#box3{
+    background-color: yellow;
+}
+#box4{
+    background-color: lime;
+}
+#box5{
+    background-color: red;
+}
