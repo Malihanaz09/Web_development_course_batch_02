@@ -8,21 +8,30 @@ div{
     border: 2px solid black;
 }
 #container{
-    width: 800px;
+    width:300px;
     height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
 }
 #box1{
     background-color: lightcoral;
-    }
+    /* flex-grow:2; */
+}
 #box2{
     background-color: rebeccapurple;
+    /* flex-grow: 1; */
 }
 #box3{
     background-color: yellow;
+    align-self: flex-start;
 }
 #box4{
     background-color: lime;
 }
 #box5{
     background-color: red;
+    flex-shrink: 0;
 }
