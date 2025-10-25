@@ -1,0 +1,20 @@
+body{
+    background-color: yellow;
+}
+h1{
+    color: blue;
+}
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+#firstPara{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
